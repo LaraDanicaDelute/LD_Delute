@@ -7,7 +7,7 @@ body {
    background-color: E2C2B9;
 }
 
-h1.headers {
+.intro {
     color:aliceblue;
     letter-spacing: 2px;
     text-align: center;
