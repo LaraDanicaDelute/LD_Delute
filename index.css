@@ -1,0 +1,14 @@
+body {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: E2C2B9;
+}
+
+h1.headers {
+    color:aliceblue;
+    letter-spacing: 2px;
+    text-align: center;
+}
