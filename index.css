@@ -3,7 +3,7 @@
     margin: 0;
     top: 50%;
     left: 50%;
-    transform: translateX(50%);
+    transform: translateX(25%) translateY(25%)
     position: abosulute;
     text-align: center;
 }
