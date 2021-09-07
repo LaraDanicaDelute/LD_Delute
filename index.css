@@ -1,4 +1,5 @@
 body {
+
     background: #FFB830;
     padding: 0;
     margin: 0;
@@ -15,7 +16,15 @@ body {
     top: 50%;
     transform: translateY(50%)
 }
-h1.intro {
+h1 {
     letter-spacing: 2px;
     font-style: italic;
+}
+h3 {
+    letter-spacing: 5px;
+    font-style: normal;
+    font-size: 12px;
+}
+p {
+    line-height: 20px;
 }
