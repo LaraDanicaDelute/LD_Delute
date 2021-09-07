@@ -1,9 +1,21 @@
-.intro {
+body {
+    background: #FFB830;
     padding: 0;
     margin: 0;
-    top: 50%;
-    left: 50%;
-    transform: translateX(25%) translateY(25%)
-    position: abosulute;
+
+}
+.intro {
+    width: 400px;
+    height: 400px;
+    margin: 100px auto;
+    font-family:Arial, Helvetica, sans-serif;
     text-align: center;
+    position: relative;
+    color: #f0f8ff;
+    top: 50%;
+    transform: translateY(50%)
+}
+h1.intro {
+    letter-spacing: 2px;
+    font-style: italic;
 }
