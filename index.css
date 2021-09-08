@@ -37,3 +37,11 @@ h3 {
     font-style: normal;
     font-size: 12px;
 }
+.table1 {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 100px auto;
+    color: #FFEDDA;
+    text-align: center;
+    word-spacing: 20px;
+
+}
