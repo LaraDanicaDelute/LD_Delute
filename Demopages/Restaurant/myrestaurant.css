@@ -1,0 +1,98 @@
+body {
+    background-image: url('pizza.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+}
+#Title {
+    width: 650px;
+    height: 900px;
+    float: left;
+    padding-top: 150px;
+    padding-left: 50px;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-weight: 50px;
+    font-size: 100px;
+    letter-spacing: 12px;
+    line-height: 0px;
+    color: #fff;
+    position: relative;
+}
+h3.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    letter-spacing: 16px;
+    color: #fff;
+}
+.container {
+    display: flex;
+    min-height: 10vh;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    position: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn1 {
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    justify-content: space-evenly;
+    color: #fff;
+    border-radius: 4px;
+    transition: ease-out 0.3s;
+    font-size: 20px;
+    letter-spacing: 3px;
+    outline: none;
+    margin: 2px;
+    border: 2px solid #ffff;
+    position: relative;
+    z-index:1;
+}
+.btn1:hover {
+    color: #fff;
+    cursor: pointer;
+}
+.btn1:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #FFB319;
+}
+.btn1:hover:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+}
+.media {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.media li {
+    flex-direction: column;
+    margin: 0 15px 0 15px;
+}
+.media a {
+    text-decoration: none;
+    color: #ffff;
+}
+.media a i{
+    font-size: 20px;
+}
+.media a:hover i{
+    color: #FFB830;
+}
