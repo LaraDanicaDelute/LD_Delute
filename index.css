@@ -49,8 +49,9 @@ h3.heading3{
 .btn1 {
     width: 300px;
     height: 35px;
+    font-weight: 800;
     border: none;
-    color: #FFEDDA;
+    color: #Fff;
     background-color: #262A53;
     border-radius: 4px;
     transition: ease-out 0.3s;
