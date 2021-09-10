@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaccination Form</title>
+    <link rel="stylesheet" href="vaccination.css">
+</head>
+<body>
+    <div id="header">
+        <h1> COVID19 vaccination form</h1>
+        <div class='container'>
+            <button class = 'btn1'><a href='#Demographic'>Demographic Profile</a></button>
+            <button class = 'btn1'><a href='#Health'>Health History</a></button>
+            <button class = 'btn1'><a href='#Vaccine'>Vaccination</a></button>
+    </div>
+    </div>
+    <div id ="Demographic">
+        <p>*Make sure to to stay true to all the data you give. <br>
+            *All information given will be considered confidential. </p>
+        <h3>Demographic Profile</h3>
+      <table>
+      <form id="myForm" action="">
+        <tr>
+          <td>Firstname:</td>
+          <td><input type="text" 
+                     id="Firstname" 
+                     name="Firstname"/>
+          </td>
+        </tr>
+        <tr>
+          <td>Lastname:</td>
+          <td><input type="text" 
+                     id="Lastname" 
+                     name="Lastname"/>
+          </td>
+        </tr>
+        <tr>
+            <td>Surname:</td>
+            <td><input type="text" 
+                       id="Surname" 
+                       name="Surname"/>
+            </td>
+        </tr>
+        <tr>
+          <td>Address:</td>
+          <td><input type="text" 
+                     id="Address" 
+                     name="Address"/>
+          </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+              Disrtrict #: 
+              <select name="Choices" id="Choices">
+                <option value="Dstrict1">District 1</option>
+                <option value="District2">District 2</option>
+                <option value="District3">District 3</option>
+              </select>
+            </td>
+          </tr>
+       <tr>
+        <td>Sex:</td>
+          <td><input type="radio" 
+                     id="gender" 
+                     name="gender" 
+                     value="Female" 
+                     selected="selected"/>
+               <label for="gender">Female</label>
+          	   <input type="radio" 
+                     id="gender" 
+                     name="gender" 
+                     value="Male" 
+                     selected="selected"/>
+          	   <label for="gender">Male</label>
+          </td>
+        </tr>
+        <tr>
+          <td>Birth Date:</td>
+          <td><input type="date" 
+                     id="birthday" 
+                      name="birthday">
+          </td>
+        </tr>
+    </form> 
+    </div>
+      </table>
+
+    <div id= "Health">
+        <h3>Health History</h3>
+        <p>*Make sure to to stay true to all the data you give. <br>
+            *All information given will be considered confidential. </p>
+        <table>
+            <form id="myForm" action="">
+            <tr>
+                <td colspan="2">
+                  Health Condition: 
+                  <select name="Choices" id="Choices">
+                    <option value="None">None</option>
+                    <option value="Heart">Heart Disease</option>
+                    <option value="Lung">Respiratory Complication</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>Do you have any allergies?</td>
+                  <td><input type="radio" 
+                             id="allery" 
+                             name="allergy" 
+                             value="Yes" 
+                             selected="selected"/>
+                       <label for="allergy">Yes</label>
+                         <input type="radio" 
+                             id="allergy" 
+                             name="allergy" 
+                             value="No" 
+                             selected="selected"/>
+                         <label for="allergy">No</label>
+                  </td>
+                </tr>
+                <td>Do you take any drug prescriptions?</td>
+                <td><input type="radio" 
+                           id="drug" 
+                           name="drug" 
+                           value="Yes" 
+                           selected="selected"/>
+                     <label for="drug">Yes</label>
+                       <input type="radio" 
+                           id="drug" 
+                           name="drug" 
+                           value="No" 
+                           selected="selected"/>
+                       <label for="drug">No</label>
+                </td>
+            </tr>
+        </form>
+    </table>
+    </div>
+    <div id = "Vaccine">
+        <h3>Vaccine Selection</h3>
+        <p>*Make sure to to stay true to all the data you give. <br>
+            *All information given will be considered confidential. </p>
+        <table>
+            <form id="myForm" action="">
+                <td>Prefered Vaccine:</td>
+                  <td><input type="radio" 
+                             id="Vaccine" 
+                             name="Vaccine" 
+                             value="Moderna" 
+                             selected="selected"/>
+                      <label for="Vaccine">Moderna</label>
+                      <input type="radio"
+                             id="Vaccine" 
+                             name="Vaccine" 
+                             value="Pfizer" 
+                             selected="selected"/>
+                      <label for="Vaccine">Pfizer</label>
+                      <td><input type="radio" 
+                            id="Vaccine" 
+                            name="Vaccine" 
+                            value="J&J" 
+                            selected="selected"/>
+                      <label for="Vaccine">J&J</label>
+                      <input type="radio"
+                            id="Vaccine" 
+                            name="Vaccine" 
+                            value="Sinovac" 
+                            selected="selected"/>
+                        <label for="Vaccine">Sinovac</label>
+                  </td>
+                </tr>
+                <tr>
+                    <td>Vaccination Date:</td>
+                    <td><input type="date" 
+                               id="date" 
+                                name="vaccination">
+                    </td>
+                  </tr>
+        </form>
+    </table>
+    <div class='container'>
+        <button class = 'btn1'>Schedule Vaccination</button>
+        <button class = 'btn1'>Reset</button>
+    </div>
+
+</body>
+</html>
