@@ -1,16 +1,20 @@
 body {
-    background-image: url('pizza.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: fixed;
+    position: relative;
     margin: 0;
     padding: 0;
 }
+a {
+    color: #fff;
+}
 #Title {
-    width: 650px;
-    height: 900px;
-    float: left;
-    padding-top: 150px;
+    position: static;
+    background-image: url('pizza.jpg');
+    background-repeat: no-repeat;
+    background-size: fiil;
+    width:100%;
+    height: 300px;
+    float: top;
+    padding-top: 50px;
     padding-left: 50px;
 }
 h1 {
@@ -26,6 +30,7 @@ h1 {
 h3.title {
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
+    padding-left: 2px;
     letter-spacing: 16px;
     color: #fff;
 }
@@ -39,17 +44,17 @@ h3.title {
     font-family: Arial, Helvetica, sans-serif;
 }
 .btn1 {
-    width: 200px;
+    width: 290px;
     height: 50px;
     background-color: transparent;
     justify-content: space-evenly;
     color: #fff;
-    border-radius: 4px;
+    border-radius: 10px;
     transition: ease-out 0.3s;
     font-size: 20px;
     letter-spacing: 3px;
     outline: none;
-    margin: 2px;
+    margin: 10px;
     border: 2px solid #ffff;
     position: relative;
     z-index:1;
@@ -80,11 +85,12 @@ h3.title {
     list-style: none;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
 }
 .media li {
+    padding-left: 50px;
     flex-direction: column;
-    margin: 0 15px 0 15px;
+    margin: 0 20px;
 }
 .media a {
     text-decoration: none;
@@ -95,4 +101,100 @@ h3.title {
 }
 .media a:hover i{
     color: #FFB830;
+}
+#Menu  section{
+    display: block;
+}
+#Menu{
+    padding: 2% 6%;
+}
+#Menu .row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+}
+#Menu h1 {
+    color: #000;
+    text-align: center;
+    position: relative;
+    font-size: 50px;
+}
+#Menu .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s linear;
+}
+#Menu .item:hover {
+    cursor: pointer;
+    background-color: #FFB830;
+    background-blend-mode: screen;
+}
+.name .img {
+    flex-basis: 50%;
+}
+.name {
+    text-align: center;
+    padding: 10px;
+}
+.name h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.name p {
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+.name strong {
+    font-size: 20px;;
+}
+
+
+#Branches section{
+    display: block;
+}
+#Branches{
+    padding: 2% 6%;
+}
+#Branches .row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+}
+#Branches h1 {
+    color: #000;
+    text-align: center;
+    position: relative;
+    font-size: 50px;
+}
+#Branches .branch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s linear;
+}
+#Branches .branch:hover {
+    cursor: pointer;
+    background-color: #FFB830;
+    background-blend-mode: screen;
+}
+.namebr .img {
+    flex-basis: 50%;
+}
+.namebr {
+    text-align: center;
+    padding: 10px;
+}
+.namebr h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.namebr p {
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+.namebr strong {
+    font-size: 20px;;
+}
+.branch img {
+    width: 300px ;
+    height: 300px;
 }
