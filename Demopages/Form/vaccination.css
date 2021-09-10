@@ -3,6 +3,9 @@ body {
     padding:0;
     position: absolute;
 }
+a{
+    color: black;
+}
 #header {
     position: static;
     float: top;
@@ -25,8 +28,7 @@ p {
 }
 .btn1 {
     border-radius: 2px;
-    border-color: white;
-    background-color: tomato;
+    background-color: rgb(168, 168, 168);
 }
 h1 {
     color: #fff;
