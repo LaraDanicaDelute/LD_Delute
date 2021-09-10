@@ -22,14 +22,16 @@ p {
     color: red;
 }
 .container {
+    position: center;
     padding-left:25px;
     margin: 5px 5px;
     margin-left: 10px;
 }
 .btn1 {
     border-radius: 2px;
-    background-color: rgb(168, 168, 168);
+    background-color: #7C83FD;
 }
+
 h1 {
     color: #fff;
     padding-top: 5px;
