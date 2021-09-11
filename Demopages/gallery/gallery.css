@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #FFB319;
+}
+a {
+    color: #000;
+}
+.header {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    height:auto;
+    float: left;
+}
+p {
+    transform: translateY(65%);
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 100px;
+    line-height: 80px;
+    margin-left: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 230px;
+    padding-left: 100px;
+    text-align: center;
+    justify-content: center;
+}
+.button {
+    font-style: italic;
+    font-size: 18px;
+    margin: 5px;
+    width: 350px;
+    height: 50px;
+    background-color: #1a46a7;
+    border-radius: 10px;
+}

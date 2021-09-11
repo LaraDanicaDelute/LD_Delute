@@ -5,6 +5,9 @@ body {
     margin: 0;
     position: static;
 }
+a {
+    color: #fff;
+}
 img.img1 {
     width: 95px;
     height: 95px;
