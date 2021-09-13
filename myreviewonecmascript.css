@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.left {
+    position:fixed;
+    left:0;
+    top:0;
+    color: #000;
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding-top: 100px;
+    padding-left: 3%;
+    background-color: #fde05d;
+}
+h2 {
+    font-size: 20px;
+}
+p {
+    line-height: 20px;
+}
+.container {
+    padding-top: 15px;
+}
+.right {
+    position: fixed;
+    background-color: #FFD523;
+    float: right;
+    width: 50%;
+    height: 100%;
+    right:0;
+    top:0;
+}
+h1 {
+    padding-left: 3%;
+    padding-top: 80px;
+    font-weight: bolder;
+    font-size:  100px;
+
+}
+iframe {
+    padding-top: 70px;
+}
