@@ -3,6 +3,9 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+a {
+    color:#FFB830;
+}
 .left {
     position:fixed;
     left:0;
@@ -22,11 +25,24 @@ p {
     line-height: 20px;
 }
 .container {
-    padding-top: 15px;
+    padding-top: 30px;
+}
+.btn1 {
+    background-color: #1E3163;
+    align-items: center;
+    border: none;
+    width: 100px;
+    height: 30px;
+}
+.container .btn1:hover{
+    text-align:center;
+    width: 100px;
+    height: 30px;
+    background-color:#3352a0;
 }
 .right {
     position: fixed;
-    background-color: #FFD523;
+    background-color: #FFB830;
     float: right;
     width: 50%;
     height: 100%;

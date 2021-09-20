@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQS</title>
+    <link rel="stylesheet" href="FAQS.css">
+</head>
+<body>
+    <header class = "header"> 
+        <form action ="C:\Users\USER\Desktop\LD_Delute\index.html">
+        <nav>
+        <input class ="homebtn" type="image" src="graphic-design.png">
+        </nav>
+    </form>
+   </header>   
+   
+   <div class="container">
+	<div class="card">
+		<div class="enter-msg">
+			<h1>Message you would like to send</h1>
+			<div class="input-sec">
+				<input id="message-input" type="text" placeholder="Enter your message!">
+				<button onclick="sendMessage()">Send Message</button>
+			</div>
+		</div>
+		<div class="display-msg">       
+			<h2>Messages Delivered</h2>
+			<ul id="send-messages">
+				<li id="no-msg">No messages send so far</li>
+			</ul>
+		</div>
+	</div>
+    <form id="myForm" action="">
+        <tr>
+          <td>Name:</td>
+          <td><input type="text" 
+                     id="Firstname" 
+                     name="Firstname"/>
+          </td>
+          <td>Email:</td>
+          <td><input type="text" 
+                     id="mail" 
+                     name="mail"/>
+          </td>
+        </tr>
+        </form>
+</div>
+<script type="text/javascript">
+const msg_list = document.getElementById("send-messages");
+const msg_input = document.getElementById("message-input");
+const no_msg = document.getElementById("no-msg");
+
+function sendMessage() {
+	//console.log(msg_input.value);
+	linode = document.createElement("li");
+	textNode = document.createTextNode(msg_input.value);
+
+	linode.appendChild(textNode);
+	//console.log(linode);
+	msg_list.appendChild(linode);
+
+	// clear the input
+	msg_input.value = "";
+
+	msg_list.removeChild(no_msg);
+}
+</script>
+
+</body>
+</html>

@@ -47,6 +47,22 @@ h1 {
     padding-top: 10px;
     line-height: 60px;
 }
+#Health{
+    position: relative;
+    background-color: #FDFCE5;
+    font-family:Arial, Helvetica, sans-serif;
+    height: 100%;
+    padding-top: 10px;
+    line-height: 60px;
+}
+#Vaccine{
+    position: relative;
+    background-color: #FDFCE5;
+    font-family:Arial, Helvetica, sans-serif;
+    height: 100%;
+    padding-top: 10px;
+    line-height: 60px;
+}
 table , h3 , p{
     margin-left: 100px;
 }
