@@ -174,8 +174,8 @@ p {
   margin: auto;
 }
 
-.counter-section h2,
 .testimonial-section h2,
+.counter-section h2,
 .book-food-text h2 {
   color: var(--white-color);
 }
@@ -365,6 +365,7 @@ p {
 }
 
 .testimonial-section .carousel-item .carousel-caption p{
+  color: var(--secondry-color);
   font-size: 1.3125rem;
   line-height: 2.0625rem;
   padding:0 11% 0.625rem;
