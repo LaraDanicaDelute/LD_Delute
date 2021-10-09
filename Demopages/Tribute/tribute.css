@@ -1,36 +1,52 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
     margin: 0;
-    padding-left:0; 
-    height: 100%;
-    position: fixed;
-    background-image:url('bckgrnd.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+    padding: 0;
 }
-#tribute {
-    width: 700px;
-    height: 900px;
-    float: left;
+body{
+    font-family: 'Poppins', sans-serif !important;
 }
-h1 {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-    padding-top: 20px;
-    font-size: 75px;
-    font-weight: 800px;
-    letter-spacing: 2px;
-    text-align: center;
+.promo-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 70px;
 }
-p {
-    font-family: Arial, Helvetica, sans-serif;
-    text-indent: 30px;
-    margin-left: 20px;
-    font-size: 15px;
-    text-align: center;
+.btn-primary{
+    box-shadow: none !important;
+    padding: 8px 25px;
+    border-radius: 2px !important;
+    border: 2px solid #3c366b !important;
+    color: #3c366b !important;
+    background: none !important;
+
 }
-img {
-    display: flex;
-    padding-left: 250px;
-    width: 200;
-    height: 200px;
+.btn-primary:hover{
+    background: #3c366b !important;
+    color: #fff !important;
+    border: 2px solid #fff !important;
+}
+
+#life{
+    padding: 40px 0;
+    color: #3c366b;
+}
+.title::before{
+    content: '';
+    background: #3c366b;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50px;
+    transform: translateY(46px);
+}
+ul{
+    list-style-type: none;
+    font-weight: lighter;
+}
+ul li{
+    padding: 3px;
+    font-weight: 300;
+    color: black;
 }
