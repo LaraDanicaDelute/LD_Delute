@@ -236,7 +236,7 @@ p {
 */
 .top-banner{
   width:100%;
-  background: URL('img/pizza.jpg') no-repeat center;
+  background: URL('pizza.jpg') no-repeat center;
   background-size:cover;
   padding:16.875rem 0 9.375rem;
 }
