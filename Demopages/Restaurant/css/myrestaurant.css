@@ -236,7 +236,7 @@ p {
 */
 .top-banner{
   width:100%;
-  background: URL('C:/Users/USER/Desktop/LD_Delute/Demopages/Restaurant/img/pizza.jpg') no-repeat center;
+  background: URL('LD_Delute/Demopages/Restaurant/img/pizza.jpg') no-repeat center;
   background-size:cover;
   padding:16.875rem 0 9.375rem;
 }
@@ -304,7 +304,7 @@ p {
 .story-section{
   width:100%;
   height:28.125rem;
-  background: URL('C:/Users/USER/Desktop/LD_Delute/Demopages/Restaurant/img/pizza.jpg') no-repeat center;
+  background: URL('LD_Delute/Demopages/Restaurant/img/pizza.jpg') no-repeat center;
   background-size: cover;
   padding-top:100px;
   text-align: center;
@@ -398,7 +398,7 @@ FAQ section Design
 } 
 .book-food{
   width:100%;
-  background:URL('C:/Users/USER/Desktop/LD_Delute/Demopages/Restaurant/img/pizza.jpg') no-repeat center;
+  background:URL('LD_Delute/Demopages/Restaurant/img/pizza.jpg') no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   background-position:0 71.9125px;
