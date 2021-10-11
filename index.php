@@ -1,3 +1,4 @@
 <?php
-include_once("aboutme.html, aboutme.css");
+include_once("index.html");
+
 ?>
