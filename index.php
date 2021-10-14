@@ -1,5 +1,5 @@
 <?php
-include("aboutme.html");
-include("style.css");
+include_onnce("index.html");
+
 
 ?>
