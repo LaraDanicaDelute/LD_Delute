@@ -1,3 +1,5 @@
 <?php
-include("aboutme.html","style.css");
+include("aboutme.html");
+include("aboutme.html");
+
 ?>
