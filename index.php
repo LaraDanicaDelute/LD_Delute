@@ -1,5 +1,5 @@
 <?php
-include_onnce("index.html");
+include_once("index.html");
 
 
 ?>
