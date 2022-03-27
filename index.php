@@ -1,3 +1,3 @@
 <?php
-include("webApp.html");
+include("index.html");
 ?>
